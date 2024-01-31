@@ -1,0 +1,45 @@
+---
+title: "The Definite Integrals"
+author: "Janeth D. Aroco"
+format: pdf
+editor: visual
+---
+
+This module presents special theorems which will shorten our process of obtaining the value of definite integrals, but these theorems are limited to: a) integrals of the product of $\sin\theta$ and $\cos\theta$ with limits from $0$ to $\frac{\pi}{2}$ ; or b) of an integrand consisting of polynomial function with limits expressed as additive inverse.
+
+**Wallis’ Formula**
+
+The integral $\displaystyle\int_0^\frac{\pi}{2}\sin^mx\cos^nx dx$ in which $m$and $n$are integers $\ge$ 0, arises over and over again in elementary applications.  Fortunately, the given integral can be evaluated simply, with a formula which is easy to remember in words, though bulky looking in symbols.
+
+$\displaystyle\int_0\frac{\pi}{2}\sin^mx\cos^nx dx=\frac{[(m-1)(m-3)...or_1^2][(n-1)(n-3)...or_1^2]}{(m+n)(m+n-2)...or_1^2}• \alpha$
+
+where $\alpha=\frac{\pi}{2}$, if $m$ and $n$ are both even $\alpha=1$ otherwise In words, the value of the integral $\displaystyle\int_0^\frac{\pi}{2}\sin^mx\cos^nx dx$ is $\frac{A•B}{C}• α$ , in which $A =$ the product, starting with one less than the exponent m, going down 2 at a time, until 2 or 1 is reached;
+
+$B =$ a similar product, starting with one less than the other exponent;
+
+$C =$ a similar product, starting with the sum of the exponents.
+
+**Rule:** *If the first factor in any of the products to be formed in applying Wallis’ formula, for* $m,n ≥0$*, is less than one, replace that product by unity.*
+
+*Illustration* 1. Evaluate $\displaystyle\int_0^\frac{\pi}{2}\sin^{10}x\cos^5x dx$ Solution: Let us list the values of our variables $m = 10, n = 5 , α=1$, since $m$ and $n$ are not even
+
+```         
+         $A=$(10-1)(10-3)(10-5)(10-7)(10-9)=(9)(7)(5)(3)(1) 
+        $B=$(5-1)(5-3)=(4)(2) 
+          $C=$ (10+5)(10+5-2)(10+5-4)(10+5-6)(10+5-8)(10+5-10)
+                   (10+5-12)(10+5-14)=(15)(13)(11)(9)(7)(5)(3)(1)
+                   
+                   
+```
+
+# Properties of the definite integral
+
+1.  $\displaystyle\int_a^b kf(x)dx=k\displaystyle\int_a^b f(x)dx$ where $k$ is a constant
+
+2.  $\displaystyle\int_a^b f(x)\pm g(x)dx=\displaystyle\int_a^b f(x)dx\pm g(x)dx$
+
+3.  $\displaystyle\int_a^b f(x)dx=\displaystyle\int_a^c f(x)dx+\displaystyle\int_c^b f(x)dx$ where $a<c<b$
+
+4.  $\displaystyle\int_a^a f(x)dx=0$
+
+5.  $\displaystyle\int_a^b f(x)dx= -\displaystyle\int_b^a f(x)dx$
